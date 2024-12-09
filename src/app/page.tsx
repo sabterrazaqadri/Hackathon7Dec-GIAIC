@@ -9,12 +9,12 @@ import Popular from "./Components/Popular";
 export default function Home() {
   return (
     <div>
-      {/* <HeroSection/>
+      <HeroSection/>
       <Diffrence/>
       <NewCeramics />
       <Popular/>
       <Join/>
-      <GetInTouch/> */}
+      <GetInTouch/>
     </div>
   );
 }
