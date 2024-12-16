@@ -4,12 +4,11 @@ import Image from "next/image";
 
 const Diffrence = () => {
   return (
-    <div className="w-full max-w-[1440px] h-[355px] mx-auto">
-      <h3 className="text-[24px] text-center pt-10">What makes our brand different</h3>
+    <div className="w-full max-w-[1440px] h-[355px] mx-auto md:mb-0 mb-60">
+      <h3 className="md:text-[24px] text-xl md:text-center md:w-auto w-[274px] pt-10">What makes our brand different</h3>
 
-      {/* Main content container */}
-      <div className="w-full h-4/6 flex justify-evenly items-center flex-wrap sm:flex-nowrap">
-        {/* Individual item containers */}
+      <div className="w-full h-4/6 flex md:justify-evenly md:gap-0 gap-10 items-center md:mt-0 mt-10 flex-wrap sm:flex-nowrap">
+
         <div className="w-[270px] h-[124px]">
           <Image src={'/delivery.png'} alt="img" width={24} height={24} />
           <h4 className="text-[20px] mt-4 mb-4">Next day as standard</h4>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const NewCeramics = () => {
   const NewCeramic = [
@@ -26,7 +27,7 @@ const NewCeramics = () => {
 
   return (
     <div className="w-full h-[761px]">
-      <h4 className="text-[32px] pl-16 pt-20">New ceramics</h4>
+      <h4 className="text-[32px] md:pl-24 pl-16 pt-20">New ceramics</h4>
       <div className="h-[462px] w-full flex justify-center gap-8 mt-6 flex-wrap ">
         {NewCeramic.map((newItem, index) => (
           <div key={index} className=" flex flex-col">
@@ -38,9 +39,9 @@ const NewCeramics = () => {
           </div>
         ))}
           </div>
-        <div className="w-full flex justify-center mt-10"><button className="w-[170px] h-[56px] bg-[#F9F9F9] text-sm">
+        <Link href={'/productListing'}><div className="w-full flex justify-center mt-10"><button className="w-[170px] h-[56px] bg-[#F9F9F9] text-sm">
               View collection
-        </button></div>
+        </button></div></Link>
     </div>
   );
 };

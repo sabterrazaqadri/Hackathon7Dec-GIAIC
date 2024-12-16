@@ -1,9 +1,9 @@
 const Join = () => {
     return (
-      <div className="w-full lg:w-[1440px] h-auto lg:h-[481px] bg-[#F9F9F9] flex items-center justify-center">
+      <div className="w-full h-auto lg:h-[481px] bg-[#F9F9F9] flex items-center justify-center">
         <div className="w-full max-w-[1273px] h-auto lg:h-[364px] bg-white flex items-center flex-col p-4 lg:p-0">
           <div className="w-full max-w-[571px] h-auto mt-[40px] lg:mt-[65px] flex flex-col justify-between items-center text-center">
-            <h1 className="text-[28px] sm:text-[32px] lg:text-[36px]">
+            <h1 className="md:text-[28px] sm:text-[24px] lg:text-[36px] md:mb-0 mb-4">
               Join the club and get the benefits
             </h1>
             <p className="w-full max-w-[470px] text-center text-sm sm:text-base">
